@@ -42,7 +42,7 @@ int main() {
 			output[(y*w2+x)*n + c] = data[(y*w2+x)*n + c];
 		}
 
-		char* outputDir = "out/";
+		char* outputDir = "output/";
 		char* outputPath = malloc(strlen(outputDir) + strlen(files.gl_pathv[i]) + 1);
 		// outputPath[0] = 0;
 		strcat(outputPath, outputDir);
